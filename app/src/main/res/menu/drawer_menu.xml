@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Movie">
+        <menu>
+            <item
+                android:id="@+id/add_movie"
+                android:icon="@drawable/movie24dp"
+                android:title="Add New Movie">
+
+            </item>
+
+            <item
+                android:id="@+id/imdb_movie_list"
+                android:icon="@drawable/movie2_24dp"
+                android:title="Top IMDB Movie"></item>
+
+            <item
+                android:id="@+id/rtomato_movie_list"
+                android:icon="@drawable/movie2_24dp"
+                android:title="Top Rotten Tomatoes Movie"></item>
+
+        </menu>
+
+    </item>
+
+    <item android:title="App">
+        <menu>
+            <item
+                android:id="@+id/rate_the_app"
+                android:icon="@drawable/rating"
+                android:title="Rate The App">
+
+            </item>
+
+            <item
+                android:id="@+id/suggestion"
+                android:icon="@drawable/suggestion"
+                android:title="Suggestion"></item>
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:paddingBottom="5dp">
+
+    <TextView
+        android:id="@+id/mName_TV_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Movie Name"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/mGenre_TV_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Genre"
+        android:textSize="20sp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Body2"
+        android:layout_below="@+id/mName_TV_id"/>
+
+    <TextView
+        android:id="@+id/mReleased_TV_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mName_TV_id"
+        android:layout_marginStart="98dp"
+        android:layout_toEndOf="@+id/mCountry_TV_id"
+        android:text="Released"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Body2"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/mCountry_TV_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/mDirector_TV_id"
+        android:layout_alignBottom="@+id/mDirector_TV_id"
+        android:layout_alignParentStart="true"
+        android:text="Country"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Body2"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/mDirector_TV_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/mReleased_TV_id"
+        android:layout_below="@+id/mReleased_TV_id"
+        android:layout_marginTop="15dp"
+        android:text="Director"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Body2"
+        android:textSize="20dp" />
+
+</RelativeLayout>

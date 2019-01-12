@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="152dp"
+    android:background="#f08080 "
+    android:padding="7dp">
+
+    <ImageView
+
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/img"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MMS"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+        android:textSize="18sp"
+        android:textColor="#fcf9f9"
+        android:layout_marginStart="15dp"/>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#fcf9f9"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+        android:text="My Movie Store"
+        android:layout_marginStart="15dp"/>
+
+</LinearLayout>
